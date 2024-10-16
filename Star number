@@ -1,0 +1,17 @@
+// C++ program to find star number 
+#include <bits/stdc++.h> 
+using namespace std; 
+
+// Returns n-th star number 
+int findStarNum(int n) 
+{ 
+	return (6 * n * (n - 1) + 1); 
+} 
+
+// Driver code 
+int main() 
+{ 
+	int n = 3; 
+	cout << findStarNum(n); 
+	return 0; 
+} 
